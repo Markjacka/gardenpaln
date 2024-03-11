@@ -1,0 +1,9 @@
+let books = [
+    { title: "To Kill a Mockingbird", author: "Harper Lee" },
+    { title: "1984", author: "George Orwell" },
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
+];
+
+for (let i = 0; i < books.length; i++) {
+    console.log("Title:", books[i].title, "| Author:", books[i].author);
+}
