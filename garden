@@ -1,0 +1,9 @@
+let plants = [
+    { name: "Rose", wateringSchedule: "Twice a week" },
+    { name: "Lavender", wateringSchedule: "Once a week" },
+    { name: "Tomato", wateringSchedule: "Every other day" }
+];
+
+for (let i = 0; i < plants.length; i++) {
+    console.log("Plant:", plants[i].name, "| Watering Schedule:", plants[i].wateringSchedule);
+}
